@@ -1,0 +1,23 @@
+---
+name: App-ZofCMS-Plugin-FileToTemplate
+version: 0.0101
+author:
+  - "Zoffix <'zoffix@cpan.org'>"
+abstract: read or do() files into ZofCMS Templates
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+requires:
+  App::ZofCMS: 0.0106
+  Data::Transformer: 0.04
+  File::Spec: 3.2701
+build_requires:
+  Test::More: 0
+provides:
+  App::ZofCMS::Plugin::FileToTemplate:
+    file: lib/App/ZofCMS/Plugin/FileToTemplate.pm
+    version: 0.0101
+generated_by: Module::Build version 0.2808
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
