@@ -3,7 +3,7 @@ package App::ZofCMS::Plugin::FileToTemplate;
 use warnings;
 use strict;
 
-our $VERSION = '0.0101';
+our $VERSION = '0.0102';
 
 use Data::Transformer;
 use File::Spec;
@@ -49,6 +49,8 @@ sub callback {
 
 1;
 __END__
+
+=encoding utf8
 
 =head1 NAME
 

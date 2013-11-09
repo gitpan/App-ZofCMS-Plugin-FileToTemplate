@@ -14,7 +14,9 @@ my $builder = Module::Build->new(
         'App::ZofCMS'       => 0.0106,
         'Data::Transformer' => 0.04,
         'File::Spec'        => 3.2701,
+        perl                => '5.006',
     },
+    configure_requires => { 'Module::Build' => 0 },
     add_to_cleanup      => [ 'App-ZofCMS-Plugin-FileToTemplate-*' ],
     create_makefile_pl => 'traditional',
 );

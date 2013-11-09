@@ -1,7 +1,7 @@
 App-ZofCMS-Plugin-FileToTemplate
 
-The module is a plugin for L<App::ZofCMS>; it provides functionality to either read (slurp)
-or C<do()> files and stick them in place of "tags".
+The module is a plugin for L<App::ZofCMS>; it provides functionality
+to either read (slurp) or C<do()> files and stick them in place of "tags".
 
 INSTALLATION
 
